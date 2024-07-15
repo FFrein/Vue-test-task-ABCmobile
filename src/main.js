@@ -1,7 +1,7 @@
 // main.js
 import './assets/main.css'
 import { createApp } from 'vue'
-import { createRouter, createWebHistory } from 'vue-router' // Обратите внимание на правильный импорт
+import { createRouter, createWebHistory } from 'vue-router'
 
 import App from './App.vue'
 import Home from './views/Home.vue'
@@ -24,5 +24,5 @@ const router = createRouter({
 });
 
 const app = createApp(App);
-app.use(router); // Используйте метод use для регистрации маршрутизатора
+app.use(router); 
 app.mount('#app');
