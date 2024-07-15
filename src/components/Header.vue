@@ -6,7 +6,6 @@
             <p>тест на определение IQ</p>
         </div>
         <div class="burger-menu" v-if="menuOpen">
-            <!-- Ваше содержимое burger menu здесь -->
             <ul>
                 <li @click="toggleMenu">
                     <a>
@@ -38,12 +37,12 @@
 export default {
     data() {
         return {
-            menuOpen: false  // Изначально меню закрыто
+            menuOpen: false 
         };
     },
     methods: {
         toggleMenu() {
-            this.menuOpen = !this.menuOpen;  // Переключаем состояние меню
+            this.menuOpen = !this.menuOpen;  
         }
     }
 };
@@ -63,7 +62,7 @@ export default {
 
 .Menu {
     padding: 15px 0 15px 15px;
-    cursor: pointer;  /* Добавляем указатель при наведении, чтобы подчеркнуть кликабельность */
+    cursor: pointer; 
 }
 
 .Brain {
@@ -87,7 +86,7 @@ export default {
     bottom: 0;
     background-color: #181818;
     color: #FFC700;
-    z-index: 1000;  /* Убедитесь, что меню находится над всеми другими элементами */
+    z-index: 1000; 
 }
 
 .burger-menu ul {
