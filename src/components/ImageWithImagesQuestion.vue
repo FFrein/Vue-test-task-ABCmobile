@@ -41,7 +41,7 @@ export default {
   .divider {
     height: 2px;
     background-color: #F2F3F3;
-    margin: 16px 0; /* Пример отступов */
+    margin: 16px 0;
   }
   .image-options {
     display: flex;
