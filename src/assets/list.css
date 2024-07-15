@@ -1,0 +1,81 @@
+
+.TestBlock h2 {
+    margin: 42px;
+    font-family: "PT Serif", serif;
+    font-size: 19px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.List {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.element {
+    min-height: 50px;
+    background-color: rgba(242, 243, 243, 0.5);
+    margin: 4px;
+    position: relative; /* Добавляем позиционирование */
+    cursor: pointer; /* Добавляем стили для указания на кликабельность */
+    transition: background-color 0.3s ease; /* Добавляем плавный переход */
+}
+
+.element label{
+    max-width: 100px;
+    flex-wrap: wrap;
+}
+
+.element.selected {
+    background-color: yellow; /* Изменяем цвет фона при выборе */
+    color: black;
+}
+
+.custom-radio {
+    display: none; /* Скрываем стандартный input */
+}
+
+.custom-radio + label {
+    display: block;
+    padding: 18px 0 16px 0;
+    max-width: 90%;
+    margin: auto;
+    position: relative; /* Добавляем позиционирование */
+}
+
+.custom-radio + label::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0px;
+    border: 2px solid #fff; /* Белый контур */
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0); /* Прозрачный фон */
+}
+
+.custom-radio:checked + label::before {
+    background-color: #2950C2 /* Пример полупрозрачного фона при выборе */
+}
+
+
+.image-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-options img {
+    padding: 5px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease; /* Плавный переход для background-color */
+}
+
+.image-options img.selected {
+    background-color: rgb(221, 151, 0); /* Цвет фона для выбранной картинки */
+}

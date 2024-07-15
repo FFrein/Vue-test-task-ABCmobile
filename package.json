@@ -1,0 +1,20 @@
+{
+  "name": "abc-mobile-test-task",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "vite": "^5.3.3"
+  }
+}
