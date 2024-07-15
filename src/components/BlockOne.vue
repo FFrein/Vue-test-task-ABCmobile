@@ -63,14 +63,14 @@ export default{
         align-items: center;
         justify-content: center;
         height: 100%;
-        position: relative; /* Добавляем position: relative; чтобы потом использовать position: absolute; внутри */
+        position: relative; 
     }
     .UnderImageBlock {
         position: absolute;
-        bottom: 0; /* Прижимаем блок к нижнему краю */
+        bottom: 0; 
         width: 100%;
         text-align: center;
-        padding-bottom: 20px; /* Добавляем небольшой отступ снизу */
+        padding-bottom: 20px;
     }
     
     .BlockOne img{
@@ -80,7 +80,7 @@ export default{
         max-width: 250px;
     }
     .BlockOne h3{
-        font-family: "PT Serif", serif; /* Использование font-family вместо font */
+        font-family: "PT Serif", serif;
         text-align: center;
         color: #FFFFFF;
         size: 18px;
