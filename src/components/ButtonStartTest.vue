@@ -20,7 +20,7 @@
         font-family: "Merriweather", serif;
         text-transform: uppercase;
         font-size: 14px;
-        line-height: 41px; /* Выравнивание высоты кнопки с высотой родительского элемента */
+        line-height: 41px;
         letter-spacing: 0.1em;
         text-align: center;
         color: #0D0C11;
